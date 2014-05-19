@@ -1,0 +1,93 @@
+.viewport {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.frame {
+	padding-top: 50px;
+	position: absolute;
+	width: 200%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0; 
+}
+
+.menu {
+	height: 100%;
+}
+
+.menu.collapse {
+	float: left;
+	width: auto; 
+}
+.menu.collapsing {
+	float: left;
+	width: auto; 
+}
+
+.menu.collapse.height {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.35s ease;
+	-moz-transition: height 0.35s ease;
+	-o-transition: height 0.35s ease;
+	transition: height 0.35s ease;
+}
+
+.menu.collapsing.height {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.35s ease;
+	-moz-transition: height 0.35s ease;
+	-o-transition: height 0.35s ease;
+	transition: height 0.35s ease;
+}
+
+.menu.collapse.width {
+	  position: relative;
+	  width: 0;
+	  overflow: hidden;
+	  -webkit-transition: width 0.35s ease;
+	  -moz-transition: width 0.35s ease;
+	  -o-transition: width 0.35s ease;
+	  transition: width 0.35s ease; 
+}
+
+.menu.collapsing.width {
+	  position: relative;
+	  width: 0;
+	  overflow: hidden;
+	  -webkit-transition: width 0.35s ease;
+	  -moz-transition: width 0.35s ease;
+	  -o-transition: width 0.35s ease;
+	  transition: width 0.35s ease; 
+}
+
+.menu.collapsing.width {
+	position: relative;
+	width: 0;
+	overflow: hidden;
+	-webkit-transition: width 0.35s ease;
+	-moz-transition: width 0.35s ease;
+	-o-transition: width 0.35s ease;
+	transition: width 0.35s ease; 
+}
+
+.menu .collapse-inner {
+	position: relative;
+	width: 250px;
+	height: 100%; 
+}
+
+.view {
+	width: 50%;
+	height: 100%;
+	overflow: hidden; 
+}
